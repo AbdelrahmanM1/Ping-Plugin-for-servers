@@ -1,0 +1,20 @@
+name: dayandnightplugin
+version: '1.0'
+main: me.abdelrahmanmoharramdev.dayandnightplugin.Dayandnightplugin
+description: It's a plugin I want to make it to ease make servers people day and night
+authors: [ 3bdoabk ]
+commands:
+  day:
+    description: Set time to day
+    permission: dayandnightplugin.day
+  night:
+    description: Set time to night
+    permission: dayandnightplugin.night
+
+permissions:
+  dayandnightplugin.day:
+    description: Allows the player to set time to day
+    default: true
+  dayandnightplugin.night:
+    description: Allows the player to set time to night
+    default: true
