@@ -1,0 +1,9 @@
+name: serverping
+version: '1.0'
+main: me.abdelrahmanmoharramdev.serverping.Serverping
+authors: [ 3bdoabk ]
+
+commands:
+  ping:
+    description: it shows your ping
+    usage: /ping <player>
